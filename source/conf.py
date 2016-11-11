@@ -148,7 +148,12 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
     html_theme = 'default'
 else:
-  html_theme = 'alabaster'
+  #html_theme = 'default'
+  html_theme = "classic"
+  html_theme_options = {
+    "rightsidebar": "true",
+    "relbarbgcolor": "black"
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
