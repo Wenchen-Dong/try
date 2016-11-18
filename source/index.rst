@@ -9,11 +9,13 @@
 .. toctree::
   :maxdepth: 1
   
-  邦威试验机使用指南
+  bangwei
   
-  申力试验机使用指南
+  shenli
+
+  DH3821
   
-  应变片的粘贴
+  straingauge
   
 ==================
 
